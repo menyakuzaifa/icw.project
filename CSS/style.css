@@ -1,0 +1,111 @@
+.head{ 
+	background-color: lightgoldenrodyellow;
+	border: none;
+	align-items: center;
+}
+	.nav{
+		margin: 0px;
+		box-align: center;
+	}
+	nav{
+		margin: auto;
+		align-items: center;
+		gap: 50px;
+		background: blue;
+		border: none;
+		padding: 20px;
+	}
+
+	nav a {
+	border:none;
+	padding: 20px;
+	text-decoration: none;
+	margin: 5px;
+	cursor: pointer;
+	background: transparent;
+	color: white;
+
+
+}
+.nav-bar{
+	    margin: auto;
+		align-items: center;
+		gap: 50px;
+		background: skyblue;
+		border: none;
+		text-decoration: none;
+		padding: 20px;
+
+}
+.logo,h1 {
+	background: skyblue;
+	align-items: center;
+}
+
+
+
+
+.contact img {
+	width: 50px;
+	height: 40px;
+}
+*{
+	box-sizing: border-box;
+	font-size: 15px;
+}
+body{
+	font-family: sans-serif;
+	line-height: 1.2cm;
+	background-color: deep skyblue;
+
+}
+*{
+	
+	box-sizing: border;
+	margin: 0;
+}
+
+.content img{
+    height: 300px;
+	margin-left:40px ;
+	}
+.content h2,.content: p{
+	margin-left:40px ;
+}
+
+
+.ft p{
+	color: black;
+	display: block;
+	align-items: center;
+}
+.ft{
+	margin-top: 95px;
+	color: white;
+
+}
+.impact p{
+	align-items:center;
+}
+.edit{
+	display: flex;
+	margin-top: 20px;
+}
+.overview p{ 
+	padding: 0;
+
+}
+.h20{
+	margin-top: 30px;
+	margin-left: 180px;
+}
+.solvid{
+	margin-left: 50%;
+}
+
+@media(max-width: 555px) {
+	.nav-bar,.banner,.text,.us,.logo,.overview{
+		width: 100%;
+	}
+
+}
